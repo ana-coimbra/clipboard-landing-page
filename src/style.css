@@ -149,39 +149,51 @@ p {
 .bottom-section {
   background-color: #f7f8f8;
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(3, auto);
-  padding: 2rem 8rem;
+  font-size: 16px;
+  margin-top: 10rem;
+  padding: 3rem 8rem;
 }
 
-.bottom-section img {
-  align-self: center;
+.logo-bottom-section {
   width: 55px;
 }
 
 .bottom-details {
   display: grid;
-  grid-template-columns: repeat(3, 10rem);
+  grid-template-columns: repeat(3, 11rem);
   grid-gap: 1.5rem;
   text-align: left;
 }
 
-.social-media {
-  display: flex;
+.bottom-details span:hover {
+  cursor: pointer;
+  color: var(--cyan);
 }
 
 /* Footer */
 
-.attribution {
-  color: grey;
-  font-size: 11px;
-
-  text-align: right;
-}
 .attribution a {
-  color: grey;
+  color: var(--cyan);
   text-decoration: none;
 }
 
 .attribution a:hover {
-  color: #fff;
+  color: var(--darkgreyblue);
+}
+
+/* Social Media */
+.social-media {
+  justify-self: flex-end;
+}
+
+.icon {
+  margin-left: 15px;
+  width: 22.5px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  fill: var(--cyan);
 }
