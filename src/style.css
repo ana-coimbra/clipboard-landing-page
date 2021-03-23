@@ -1,0 +1,40 @@
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --lightblue: hsl(233, 100%, 69%);
+  --darkgreyblue: hsl(210, 10%, 33%);
+  --greyblue: hsl(201, 11%, 66%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--darkgreyblue);
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Footer */
+
+.attribution {
+  color: grey;
+  font-size: 11px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.attribution a {
+  color: grey;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #fff;
+}
