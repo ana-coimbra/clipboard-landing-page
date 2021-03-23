@@ -32,8 +32,8 @@ h4 {
 p {
   color: var(--greyblue);
   margin: 1.25rem auto;
-  width: 665px;
-  line-height: 1.5;
+  width: 660px;
+  line-height: 1.8;
 }
 
 /* Top Section */
@@ -58,7 +58,7 @@ p {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-top: 2.5rem;
+  margin: 2.5rem;
 }
 
 .btn-ios {
@@ -85,12 +85,90 @@ p {
   opacity: 80%;
 }
 
+/* Snippets Section */
+
+.snippets-details {
+  margin-top: 5.5rem;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.snippets-details img {
+  position: relative;
+  right: 3.5rem;
+}
+
+.snippets-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+.snippets-info p {
+  font-size: 16px;
+  width: 350px;
+  margin-top: 0.5rem;
+}
+
+/* Clipboard Section */
+
+.clipboard-section img {
+  margin-top: 5rem;
+}
+
+/* Workflow Section */
+
+.workflow-details {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.workflow-details img {
+  margin-bottom: 2.5rem;
+  width: 40px;
+}
+
+.workflow-details p {
+  font-size: 16px;
+  width: 350px;
+}
+
+/* Brand Section */
+
+.brands-section img {
+  padding: 10rem 3rem 0;
+}
+
+/* Download Section */
+/* Bottom Section */
+
+.bottom-section {
+  background-color: #f7f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+.bottom-section img {
+  width: 55px;
+}
+
+.bottom-details {
+  display: grid;
+}
+
 /* Footer */
 
 .attribution {
+  background-color: #f7f8f8;
   color: grey;
   font-size: 11px;
-  margin-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .attribution a {
