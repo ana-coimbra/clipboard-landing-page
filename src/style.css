@@ -148,28 +148,34 @@ p {
 
 .bottom-section {
   background-color: #f7f8f8;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
   padding: 2rem 8rem;
 }
 
 .bottom-section img {
+  align-self: center;
   width: 55px;
 }
 
 .bottom-details {
   display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  grid-gap: 1.5rem;
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
 }
 
 /* Footer */
 
 .attribution {
-  background-color: #f7f8f8;
   color: grey;
   font-size: 11px;
-  padding-bottom: 2rem;
-  text-align: center;
+
+  text-align: right;
 }
 .attribution a {
   color: grey;
