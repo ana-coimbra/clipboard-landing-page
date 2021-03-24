@@ -190,10 +190,9 @@ p {
 
 .icon {
   margin-left: 15px;
-  width: 22.5px;
 }
 
 .icon:hover {
   cursor: pointer;
-  fill: var(--cyan);
+  color: var(--cyan);
 }
