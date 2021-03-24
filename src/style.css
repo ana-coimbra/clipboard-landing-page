@@ -37,7 +37,6 @@ p {
 }
 
 /* Top Section */
-
 .top-section {
   background-image: linear-gradient(transparent, white 100%),
     url("images/bg-header-desktop.png");
@@ -53,7 +52,6 @@ p {
 }
 
 /* General Buttons */
-
 .btn-section {
   display: flex;
   gap: 1rem;
@@ -86,7 +84,6 @@ p {
 }
 
 /* Snippets Section */
-
 .snippets-details {
   margin-top: 5.5rem;
   display: flex;
@@ -106,20 +103,20 @@ p {
   text-align: left;
 }
 
-.snippets-info p {
+/* Snipptes Section + Workflow Section | Paragraphs */
+.snippets-info p,
+.workflow-details p {
   font-size: 16px;
   width: 350px;
   margin-top: 0.5rem;
 }
 
 /* Clipboard Section */
-
 .clipboard-section img {
   margin-top: 5rem;
 }
 
 /* Workflow Section */
-
 .workflow-details {
   display: flex;
   gap: 2rem;
@@ -129,22 +126,15 @@ p {
 
 .workflow-details img {
   margin-bottom: 2.5rem;
-  width: 40px;
+  height: 30px;
 }
 
-.workflow-details p {
-  font-size: 16px;
-  width: 350px;
-}
-
-/* Brand Section */
-
+/* Brands Section */
 .brands-section img {
   padding: 10rem 3rem 0;
 }
 
 /* Bottom Section */
-
 .bottom-section {
   background-color: #f7f8f8;
   display: grid;
@@ -172,7 +162,6 @@ p {
 }
 
 /* Footer */
-
 .attribution a {
   color: var(--cyan);
   text-decoration: none;
@@ -188,7 +177,7 @@ p {
 }
 
 .icon {
-  margin-left: 15px;
+  margin: 0 10px;
 }
 
 .icon:hover {
@@ -198,7 +187,6 @@ p {
 
 @media only screen and (min-width: 1500px) {
   /* Snippets Section */
-
   .snippets-details {
     justify-content: center;
   }
@@ -209,18 +197,19 @@ p {
     font-size: 14px;
   }
 
+  h1,
+  h2,
   p {
     width: 300px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   h2 {
     font-size: 26px;
-    width: 300px;
-    margin: 10rem auto 0;
   }
 
   /* Top Section */
-
   .top-section {
     background-image: linear-gradient(transparent, white 100%),
       url("images/bg-header-mobile.png");
@@ -228,12 +217,9 @@ p {
 
   .heading {
     font-size: 30px;
-    width: 300px;
-    margin: 3.5rem auto 0;
   }
 
   /* General Buttons */
-
   .btn-section {
     flex-direction: column;
   }
@@ -243,7 +229,6 @@ p {
   }
 
   /* Snippets Section */
-
   .snippets-details {
     flex-direction: column;
     gap: 1rem;
@@ -260,45 +245,35 @@ p {
     text-align: center;
   }
 
-  .snippets-info p {
+  /* Snipptes Section + Workflow Section | Paragraphs */
+  .snippets-info p,
+  .workflow-details p {
     font-size: 12px;
     width: 230px;
   }
 
   /* Clipboard Section */
-
   .clipboard-section img {
     width: 85%;
     margin-top: 2rem;
   }
 
   /* Workflow Section */
-
   .workflow-details {
     flex-direction: column;
   }
 
-  .workflow-details p {
-    font-size: 12px;
-    width: 230px;
-  }
-
-  /* Brand Section */
-
+  /* Brands Section */
   .brands-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 8rem;
   }
 
   .brands-section img {
-    width: 35%;
-    padding: 2rem 0rem;
+    padding: 4rem 3rem 0;
+    width: 60%;
   }
 
   /* Bottom Section */
-
   .bottom-section {
     grid-template-columns: 345px;
     grid-gap: 2.5rem;
@@ -315,13 +290,7 @@ p {
   }
 
   /* Social Media */
-
   .social-media {
     justify-self: center;
-  }
-
-  .icon {
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
