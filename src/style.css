@@ -205,8 +205,18 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
   p {
-    width: 345px;
+    width: 300px;
+  }
+
+  h2 {
+    font-size: 26px;
+    width: 300px;
+    margin: 10rem auto 0;
   }
 
   /* Top Section */
@@ -217,13 +227,19 @@ p {
   }
 
   .heading {
-    font-size: 36px;
+    font-size: 30px;
+    width: 300px;
+    margin: 3.5rem auto 0;
   }
 
   /* General Buttons */
 
   .btn-section {
     flex-direction: column;
+  }
+  .btn-ios,
+  .btn-mac {
+    font-size: 14px;
   }
 
   /* Snippets Section */
@@ -245,13 +261,15 @@ p {
   }
 
   .snippets-info p {
-    width: 310px;
+    font-size: 12px;
+    width: 230px;
   }
 
   /* Clipboard Section */
 
   .clipboard-section img {
     width: 85%;
+    margin-top: 2rem;
   }
 
   /* Workflow Section */
@@ -261,7 +279,8 @@ p {
   }
 
   .workflow-details p {
-    width: 310px;
+    font-size: 12px;
+    width: 230px;
   }
 
   /* Brand Section */
@@ -274,6 +293,7 @@ p {
   }
 
   .brands-section img {
+    width: 35%;
     padding: 2rem 0rem;
   }
 
